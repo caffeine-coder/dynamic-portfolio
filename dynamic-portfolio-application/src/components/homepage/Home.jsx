@@ -1,13 +1,12 @@
 import React from 'react';
+import Header from '../header/Header';
+import "antd/dist/antd.css";
 import './home.scss'
 
 
 const Home = () => {
     return (
         <div className="container">
-            <div className="header">
-                <h1>Dynamic Portfolio</h1>
-            </div>
         </div>
     )
 

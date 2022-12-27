@@ -1,17 +1,16 @@
 import React from 'react';
 import { Button, DatePicker, Space, version } from "antd";
 
-import './header.scss'
+import './about.scss'
 
 
-const Header = () => {
+const About = () => {
     return (
         <div className="header">
-         <Button type="primary">Primary Button</Button>
-
+        <h1 className="textcolor">About Me</h1>
         </div>
     )
 
 }
 
-export default Header;
+export default About;

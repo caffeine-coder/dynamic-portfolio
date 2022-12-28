@@ -12,25 +12,33 @@ import About from "./components/header/About";
 import NavBar from "./components/navbar/NavBar";
 
 import "./App.scss";
+import LandingPage from "./components/landingpage/LandingPage";
+import Login from "./components/login/Login";
+import Signup from "./components/signup/Signup";
 
-const AppLayout = () => (
-    <>
-      <NavBar />
-      <Outlet />
-    </>
-  );
 
 const router = createBrowserRouter([
     {
-      element: <AppLayout />,
       children: [
         {
           path: "/",
+          element: <LandingPage />,
+        },
+        {
+          path: "/home",
           element: <Home />,
         },
         {
-          path: "about",
+          path: "/about",
           element: <About />,
+        },
+        {
+          path: "/login",
+          element: <Login />,
+        },
+        {
+          path: "/signup",
+          element: <Signup />,
         },
       ],
     },

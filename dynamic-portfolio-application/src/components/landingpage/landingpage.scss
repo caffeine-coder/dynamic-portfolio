@@ -1,0 +1,42 @@
+.landingpage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    height: 100vh;
+    background-color: white;
+  }
+
+
+.landingpage > .container > .welcome {
+  display: block;
+  color: #5BE9B9;
+  font-size: 3rem;
+  margin-left: 7rem;
+  font-weight: bolder;
+}
+
+.landingpage> .container > .message {
+  display: block;
+  color: black;
+  font-size: 2rem;
+}
+
+.landingpage > .container > .signup {
+  margin-left: 1rem;
+  height: 3rem;
+  width: 5rem;
+}
+
+.landingpage > .container > .login {
+  margin-left: 8rem;
+  height: 3rem;
+  width: 5rem;
+}
+
+.landingpage > .container > .signup > span,
+.landingpage > .container > .login > span
+ {
+margin-left: 0px;
+font-size: 1rem;
+}

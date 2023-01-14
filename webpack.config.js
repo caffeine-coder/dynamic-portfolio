@@ -32,6 +32,7 @@ module.exports = {
 
     resolve: {
         extensions: ['.ts', '.js', '.jsx'],
+        fallback: { crypto: false },
       },
 
     module:{
